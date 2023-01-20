@@ -2995,6 +2995,29 @@ p {
     white-space: nowrap;
 }
 
+.project-headline-container-digitalocean {
+    position: absolute;
+    left: -46.4375em;
+    top: -0.65em;
+    z-index: 800;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 0px;
+    padding-top: 3.5em;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: #cd7210;
+    -webkit-transform: rotate(-26deg);
+    -ms-transform: rotate(-26deg);
+    transform: rotate(-26deg);
+    white-space: nowrap;
+}
+
+
 .headline-wrapper-bridg3 {
     display: -webkit-box;
     display: -webkit-flex;
@@ -3159,6 +3182,25 @@ p {
     -ms-flex-align: start;
     align-items: flex-start;
     background-image: url("https://raw.githubusercontent.com/ishre/kyc-ctf/main/assets/img/sponsors/hackenproof.png");
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.project-showcase-parent-digitalocean {
+    display: block;
+    width: 100%;
+    height: 58.5em;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    background-image: url("https://raw.githubusercontent.com/ishre/kyc-ctf/main/assets/img/sponsors/digital-ocean.png");
     background-position: 50% 50%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -7470,18 +7512,23 @@ p {
     }
 
     .project-showcase-parent-apelist {
-        background-image: url("https://uploads-ssl.webflow.com/625416e0a64e0c6895f79107/62712df09987b146b09eec6d_apelist-mobile-new.jpg");
+        background-image: url("https://raw.githubusercontent.com/ishre/kyc-ctf/main/assets/img/sponsors/offensive-security.jpg");
         background-attachment: scroll;
     }
 
     .project-showcase-parent-zooverse {
-        background-image: url("https://uploads-ssl.webflow.com/625416e0a64e0c6895f79107/62712d815cafb59fffc875e9_zooverse-mobile-final.jpg");
+        background-image: url("https://raw.githubusercontent.com/ishre/kyc-ctf/main/assets/img/sponsors/zsecurity.jpg");
         background-size: cover;
         background-attachment: scroll;
     }
 
     .project-showcase-parent-bridg3 {
-        background-image: url("https://uploads-ssl.webflow.com/625416e0a64e0c6895f79107/62712e594ac7e262d4c7e281_mobile-bridg3.jpg");
+        background-image: url("https://raw.githubusercontent.com/ishre/kyc-ctf/main/assets/img/sponsors/hackenproof.png");
+        background-attachment: scroll;
+    }
+
+    .project-showcase-parent-digitalocean {
+        background-image: url("https://raw.githubusercontent.com/ishre/kyc-ctf/main/assets/img/sponsors/digital-ocean.png");
         background-attachment: scroll;
     }
 
